@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 512 512" role="img" aria-label="Headbook avatar">
+  <!-- Blue rounded square -->
+  <rect width="512" height="512" rx="96" ry="96" fill="#1877F2"/>
+  <!-- Head -->
+  <circle cx="256" cy="176" r="88" fill="#fff"/>
+  <!-- Shoulders/chest -->
+  <path d="M112 400c0-80 64-144 144-144s144 64 144 144v48H112v-48z" fill="#fff"/>
+</svg>
