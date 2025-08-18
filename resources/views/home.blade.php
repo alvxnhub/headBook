@@ -22,14 +22,23 @@
     <div class="row">
         <div><h1>Recent Post</h1></div>
         <div class="col-4">
-            <img src="https://imgs.search.brave.com/EiJngaedj4nJYE1Bzaqwnz7A0jSEKXDpa7BzOUddIno/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly90aHVt/YnMuZHJlYW1zdGlt/ZS5jb20vYi9zaHJl/ay1jYXJ0b29uLWNo/YXJhY3Rlci1tYWRl/LXdheC1zYW5rdC1w/ZXRlcnNidXJnLW11/c2V1bS1leGhpYml0/aW9uLWJ1Y2hhcmVz/dC0zODEwMzM5OC5q/cGc" class="w-100 p-2">
+            <img src="https://imgs.search.brave.com/EiJngaedj4nJYE1Bzaqwnz7A0jSEKXDpa7BzOUddIno/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly90aHVt/YnMuZHJlYW1zdGlt/ZS5jb20vYi9zaHJl/ay1jYXJ0b29uLWNo/YXJhY3Rlci1tYWRl/LXdheC1zYW5rdC1w/ZXRlcnNidXJnLW11/c2V1bS1leGhpYml0/aW9uLWJ1Y2hhcmVz/dC0zODEwMzM5OC5q/cGc" class="w-100 p-2 img-hover-effect">
         </div>
         <div class="col-4">
-            <img src="https://imgs.search.brave.com/EiJngaedj4nJYE1Bzaqwnz7A0jSEKXDpa7BzOUddIno/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly90aHVt/YnMuZHJlYW1zdGlt/ZS5jb20vYi9zaHJl/ay1jYXJ0b29uLWNo/YXJhY3Rlci1tYWRl/LXdheC1zYW5rdC1w/ZXRlcnNidXJnLW11/c2V1bS1leGhpYml0/aW9uLWJ1Y2hhcmVz/dC0zODEwMzM5OC5q/cGc" class="w-100 p-2">
+            <img src="https://imgs.search.brave.com/EiJngaedj4nJYE1Bzaqwnz7A0jSEKXDpa7BzOUddIno/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly90aHVt/YnMuZHJlYW1zdGlt/ZS5jb20vYi9zaHJl/ay1jYXJ0b29uLWNo/YXJhY3Rlci1tYWRl/LXdheC1zYW5rdC1w/ZXRlcnNidXJnLW11/c2V1bS1leGhpYml0/aW9uLWJ1Y2hhcmVz/dC0zODEwMzM5OC5q/cGc" class="w-100 p-2 img-hover-effect">
         </div>
         <div class="col-4">
-            <img src="https://imgs.search.brave.com/EiJngaedj4nJYE1Bzaqwnz7A0jSEKXDpa7BzOUddIno/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly90aHVt/YnMuZHJlYW1zdGlt/ZS5jb20vYi9zaHJl/ay1jYXJ0b29uLWNo/YXJhY3Rlci1tYWRl/LXdheC1zYW5rdC1w/ZXRlcnNidXJnLW11/c2V1bS1leGhpYml0/aW9uLWJ1Y2hhcmVz/dC0zODEwMzM5OC5q/cGc" class="w-100 p-2">
+            <img src="https://imgs.search.brave.com/EiJngaedj4nJYE1Bzaqwnz7A0jSEKXDpa7BzOUddIno/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly90aHVt/YnMuZHJlYW1zdGlt/ZS5jb20vYi9zaHJl/ay1jYXJ0b29uLWNo/YXJhY3Rlci1tYWRl/LXdheC1zYW5rdC1w/ZXRlcnNidXJnLW11/c2V1bS1leGhpYml0/aW9uLWJ1Y2hhcmVz/dC0zODEwMzM5OC5q/cGc" class="w-100 p-2 img-hover-effect">
         </div>
     </div>
 </div>
+<style>
+.img-hover-effect {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.img-hover-effect:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+}
+</style>
 @endsection
