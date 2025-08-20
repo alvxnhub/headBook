@@ -7,7 +7,7 @@
             <img src="https://scontent.fmnl17-5.fna.fbcdn.net/v/t39.30808-1/502940899_3251112318360158_8972572154323704464_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=110&ccb=1-7&_nc_sid=1d2534&_nc_ohc=0fmV-TZ5XlYQ7kNvwEurD2C&_nc_oc=AdljvlJQLAtXj659t2hWpcxsfxZhod0aX7G37CEs5yBUWP7kfSAgiog4HOrqiG255ao&_nc_zt=24&_nc_ht=scontent.fmnl17-5.fna&_nc_gid=JqRYSWeVX9PzbDFSKHCTLA&oh=00_AfVBfFHLALn8AKMSU3oN8Ob5_bfYYgPSt_PUzno33aT3NA&oe=68A502A2" class="rounded-circle img-fluid" style="width: 170px; height: 170px; border: 3px solid white; object-fit: cover;">
         </div>
         <div class="col-12 col-md-9 p-5">
-            <div><h1>Juan Dela Cruz</h1></div>
+        <div><h1>{{ $user->username }}</h1></div>
             <div class="d-flex flex-wrap">
                 <div class="pe-4"><strong>1553</strong> post</div>
                 <div class="pe-4"><strong>23k</strong> followers</div>
